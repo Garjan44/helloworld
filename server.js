@@ -22,9 +22,6 @@ app.get("/", (req, res) => {
     res.send("Garjan Raj Gosain - 134210210");
 });
 
-app.get("/views", function(req,res){
-    req.sendFile(path.join(__dirname,"/views.about.html"));
-})
 
 // setup http server to listen on HTTP_PORT
 app.listen(HTTP_PORT);
